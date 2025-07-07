@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ebebeb;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 1rem 0;
+  color: #2300bf;
+  text-align: center;
+}
+
+h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#container-hobbies {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#container-img {
+  display: flex;
+  gap: 0.2rem;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#container-img img {
+  width: 14rem;
+  height: 10rem;
+}
+
+table {
+  margin: 2rem auto;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #111;
+}
+
+th, td {
+  text-align: center;
+  padding: 0.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+th {
+   background-color: #7e7e7e;
+}
+
+caption {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.2rem;
+}
+
+.img {
+  width: 10rem;
+  height: 7rem;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #222;
+  padding: 1.5rem;
+}
+
+a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #aaa;
+}
+
+a:hover {
+  color: #fff;
+}
+
+#container-msg {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
